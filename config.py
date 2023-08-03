@@ -8,6 +8,8 @@ admin = [
     421124124
 ]
 
+PROXY_URL = "http://proxy.server:3128"
+
 storage = MemoryStorage()
 TOKEN = config('TOKEN')
 bot = Bot(token=TOKEN)
